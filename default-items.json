@@ -1,3 +1,177 @@
 {
-    "test": "test"
+    "bundles": [
+        {
+            "name": "Wood Bundle",
+            "items": [
+                "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch",
+                "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood"
+            ],
+            "multiplier": 5,
+            "maxItems": 2,
+            "cost": [
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch",
+                    "exact": true
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood",
+                    "exact": true
+                }
+            ]
+        },
+        {
+            "name": "Stone Bundle",
+            "items": [
+                "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
+                "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint"
+            ],
+            "multiplier": 5,
+            "maxItems": 2,
+            "cost": [
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
+                    "exact": true
+                },
+                {
+                    "amount": 50,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint",
+                    "exact": true
+                }
+            ]
+        },
+        {
+            "name": "Metal Bundle",
+            "items": [
+                "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal",
+                "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot"
+            ],
+            "multiplier": 5,
+            "maxItems": 2,
+            "cost": [
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal",
+                    "exact": true
+                },
+                {
+                    "amount": 50,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
+                    "exact": true
+                }
+            ]
+        },
+        {
+            "name": "Berry Bundle",
+            "items": [
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Cianberry.PrimalItemConsumable_Berry_Cianberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Magenberry.PrimalItemConsumable_Berry_Magenberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Verdberry.PrimalItemConsumable_Berry_Verdberry"
+            ],
+            "multiplier": 10,
+            "maxItems": 3,
+            "cost": [
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry",
+                    "exact": true
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Cianberry.PrimalItemConsumable_Berry_Cianberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Magenberry.PrimalItemConsumable_Berry_Magenberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Cianberry.PrimalItemConsumable_Berry_Cianberry"
+                }
+            ]
+        },
+        {
+            "name": "Berry Seed Bundle",
+            "items": [
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Azulberry.PrimalItemConsumable_Seed_Azulberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Mejoberry.PrimalItemConsumable_Seed_Mejoberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Narcoberry.PrimalItemConsumable_Seed_Narcoberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Stimberry.PrimalItemConsumable_Seed_Stimberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Tintoberry.PrimalItemConsumable_Seed_Tintoberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Cianberry.PrimalItemConsumable_Seed_Cianberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Magenberry.PrimalItemConsumable_Seed_Magenberry",
+                "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Verdberry.PrimalItemConsumable_Seed_Verdberry",
+            ],
+            "multiplier": 10,
+            "maxItems": 3,
+            "cost": [
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry",
+                    "exact": true
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Azulberry.PrimalItemConsumable_Seed_Azulberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Mejoberry.PrimalItemConsumable_Seed_Mejoberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Narcoberry.PrimalItemConsumable_Seed_Narcoberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Stimberry.PrimalItemConsumable_Seed_Stimberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Tintoberry.PrimalItemConsumable_Seed_Tintoberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Cianberry.PrimalItemConsumable_Seed_Cianberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Magenberry.PrimalItemConsumable_Seed_Magenberry"
+                },
+                {
+                    "amount": 100,
+                    "item": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Verdberry.PrimalItemConsumable_Seed_Verdberry"
+                }
+            ]
+        }
+    ]
 }
